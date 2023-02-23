@@ -1,5 +1,15 @@
-import './App.css';
+import React from 'react'
+import Footer from './components/Footer/Footer'
+import Header from './components/Header/Header'
 
-const App = () => <h1 className="App">Hello World 1</h1>;
+const App = () => (
+  <>
+  <Header/>
+  <Footer/>
+  </>
+)
+  
+  
 
-export default App;
+
+export default App
