@@ -5,6 +5,7 @@ import Header from './components/Header/Header'
 const App = () => (
   <>
   <Header/>
+  <main style={{minHeight : "93vh"}}></main>
   <Footer/>
   </>
 )
